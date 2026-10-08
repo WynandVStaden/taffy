@@ -1,7 +1,7 @@
 <test name="grid_lanes_dense_track_size__content_box_ltr" use-rounding="true">
   <viewport width="max-content" height="max-content"/>
   <input>
-    <div display="grid-lanes" box-sizing="content-box" direction="ltr" position="absolute" width="200px" grid-auto-flow="row dense" flow-tolerance="0px" grid-template-columns="50px 50px 100px">
+    <div display="grid-lanes" box-sizing="content-box" direction="ltr" position="absolute" width="200px" grid-auto-flow="row dense" fit-tolerance="0px" grid-template-columns="50px 50px 100px">
       <div box-sizing="content-box" direction="ltr" position="relative" height="10px"/>
       <div box-sizing="content-box" direction="ltr" position="relative" height="30px"/>
       <div box-sizing="content-box" direction="ltr" position="relative" height="30px"/>
