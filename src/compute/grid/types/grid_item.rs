@@ -679,7 +679,7 @@ impl GridItem {
     /// The part of the item's minimum contribution that does not depend on the tracks it spans: its preferred
     /// size if definite, else its minimum size if definite, else zero for scroll containers.
     /// `None` means the automatic minimum size applies.
-    #[inline(always)]
+    #[inline]
     pub fn explicit_minimum_contribution(
         &self,
         tree: &mut impl LayoutPartialTree,
