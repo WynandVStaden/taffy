@@ -1,7 +1,7 @@
 <test name="grid_lanes_fit_content_tracks__border_box_rtl" use-rounding="true">
   <viewport width="max-content" height="max-content"/>
   <input>
-    <div display="grid-lanes" direction="rtl" position="absolute" width="400px" flow-tolerance="10px" grid-template-columns="fit-content(60px) fit-content(120px)">
+    <div display="grid-lanes" direction="rtl" position="absolute" width="400px" fit-tolerance="10px" grid-template-columns="fit-content(60px) fit-content(120px)">
       <div direction="rtl" position="relative" width="80px" height="20px"/>
       <div direction="rtl" position="relative" width="100px" height="30px"/>
       <div direction="rtl" position="relative" width="30px" height="10px"/>

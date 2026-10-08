@@ -1,7 +1,7 @@
 <test name="grid_lanes_auto_tracks_span__content_box_ltr" use-rounding="true">
   <viewport width="max-content" height="max-content"/>
   <input>
-    <div display="grid-lanes" box-sizing="content-box" direction="ltr" position="absolute" width="400px" flow-tolerance="10px" grid-template-columns="auto 100px auto">
+    <div display="grid-lanes" box-sizing="content-box" direction="ltr" position="absolute" width="400px" fit-tolerance="10px" grid-template-columns="auto 100px auto">
       <div box-sizing="content-box" direction="ltr" position="relative" width="220px" height="20px" grid-column-start="span 2"/>
       <div box-sizing="content-box" direction="ltr" position="relative" width="40px" height="30px"/>
       <div box-sizing="content-box" direction="ltr" position="relative" width="60px" height="10px"/>

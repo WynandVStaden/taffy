@@ -1,7 +1,7 @@
 <test name="grid_lanes_auto_tracks_margins__border_box_ltr" use-rounding="true">
   <viewport width="max-content" height="max-content"/>
   <input>
-    <div display="grid-lanes" direction="ltr" position="absolute" width="300px" flow-tolerance="10px" grid-template-columns="auto auto">
+    <div display="grid-lanes" direction="ltr" position="absolute" width="300px" fit-tolerance="10px" grid-template-columns="auto auto">
       <div direction="ltr" position="relative" width="50px" height="20px" margin-top="0px" margin-left="10px" margin-bottom="0px" margin-right="10px"/>
       <div direction="ltr" position="relative" width="80px" height="30px" margin-left="5px"/>
       <div direction="ltr" position="relative" width="30px" height="10px" margin-top="0px" margin-left="0px" margin-bottom="0px" margin-right="30px"/>

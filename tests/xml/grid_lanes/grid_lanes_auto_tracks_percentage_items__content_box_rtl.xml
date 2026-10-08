@@ -1,7 +1,7 @@
 <test name="grid_lanes_auto_tracks_percentage_items__content_box_rtl" use-rounding="true">
   <viewport width="max-content" height="max-content"/>
   <input>
-    <div display="grid-lanes" box-sizing="content-box" direction="rtl" position="absolute" width="300px" flow-tolerance="10px" grid-template-columns="auto auto">
+    <div display="grid-lanes" box-sizing="content-box" direction="rtl" position="absolute" width="300px" fit-tolerance="10px" grid-template-columns="auto auto">
       <div box-sizing="content-box" direction="rtl" position="relative" width="50%" height="20px" min-width="40px"/>
       <div box-sizing="content-box" direction="rtl" position="relative" width="80px" height="30px"/>
       <div box-sizing="content-box" direction="rtl" position="relative" width="25%" height="10px">

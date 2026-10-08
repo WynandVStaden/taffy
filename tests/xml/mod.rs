@@ -35675,13 +35675,6 @@ mod grid_lanes {
 
     #[cfg(feature = "grid_lanes")]
     #[test]
-<<<<<<< HEAD
-    fn grid_lanes_fit_tolerance__border_box_ltr() {
-        crate::run_xml_test("grid_lanes", "grid_lanes_fit_tolerance__border_box_ltr");
-||||||| parent of 259cd31a (Grid Lanes: size intrinsic grid-axis tracks from auto-placed items via virtual items)
-    fn grid_lanes_flow_tolerance__border_box_ltr() {
-        crate::run_xml_test("grid_lanes", "grid_lanes_flow_tolerance__border_box_ltr");
-=======
     fn grid_lanes_fit_content_tracks__border_box_ltr() {
         crate::run_xml_test("grid_lanes", "grid_lanes_fit_content_tracks__border_box_ltr");
     }
@@ -35706,9 +35699,8 @@ mod grid_lanes {
 
     #[cfg(feature = "grid_lanes")]
     #[test]
-    fn grid_lanes_flow_tolerance__border_box_ltr() {
-        crate::run_xml_test("grid_lanes", "grid_lanes_flow_tolerance__border_box_ltr");
->>>>>>> 259cd31a (Grid Lanes: size intrinsic grid-axis tracks from auto-placed items via virtual items)
+    fn grid_lanes_fit_tolerance__border_box_ltr() {
+        crate::run_xml_test("grid_lanes", "grid_lanes_fit_tolerance__border_box_ltr");
     }
 
     #[cfg(feature = "grid_lanes")]
